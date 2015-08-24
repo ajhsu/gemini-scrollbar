@@ -77,10 +77,10 @@
     }
 
     GeminiScrollbar.prototype.create = function create() {
-        if (SCROLLBAR_WIDTH === 0) {
-            addClass(this.element, [CLASSNAMES.prevented]);
-            return this;
-        }
+        //if (SCROLLBAR_WIDTH === 0) {
+        //    addClass(this.element, [CLASSNAMES.prevented]);
+        //    return this;
+        //}
 
         if (this._created === true) {
             console.warn('calling on a already-created object');
